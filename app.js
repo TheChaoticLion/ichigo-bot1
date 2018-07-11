@@ -93,8 +93,6 @@ bot.on('message', function(message) {
         case "quere":
             message.channel.sendMessage("heres's the list!")
             break; 
-        default:
-            message.channel.sendMessage("Invalid command");
     }
 });
 
