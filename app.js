@@ -2,13 +2,13 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 const token = process.env.BOT_TOKEN;
-const PREFIX = '/';
+const PREFIX = '?';
 bot.on('ready', () => {
     console.log('Ready')
 
 bot.user.setStatus('Online')
 
-bot.user.setGame('with A Sibling | /help')
+bot.user.setGame('with A Sibling | ?help')
 
 //bot.user.setGame('with My Darling~ <3', 'https://www.twitch.tv/thechaoticlion');
 
